@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 220px;
+  background-color: rgb(51, 61, 83);
+  border: 2px solid rgb(51, 61, 83);
+}
+header div {
+  height: 180px;
+  width: 500px;
+  border: 2px solid white;
+  margin: 15px auto;
+}
+header div p {
+  color: white;
+  text-align: center;
+}
+header div .title1 {
+  font-size: 50px;
+  transform: scale(2.7, 1.5);
+  font-family: "Amiri";
+}
