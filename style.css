@@ -3,29 +3,71 @@ body {
   padding: 0;
   box-sizing: border-box;
   direction: rtl;
+  background-color: rgb(221, 220, 220);
+  height: 1500px;
 }
+/* This is a start header */
 header {
-  background-color: rgb(51, 61, 83);
+  background-color: rgb(53, 62, 83);
   padding-bottom: 40px;
 }
-header div {
-  margin: auto;
-}
-header div p {
-  color: white;
-  text-align: center;
-}
+
 header div .title1 {
   font-size: 100px;
-  font-family: monospace;
   font-weight: 600;
   text-shadow: 7px 7px 4px rgb(112, 112, 112);
 }
 header div .title2 {
   font-size: 22px;
-  margin: -50px 0 0 160px;
+  margin: -45px 0 0 160px;
+}
+/* This is a end header */
+
+/* This is a start nav */
+nav {
+  background-color: rgb(8, 20, 45);
+}
+.navbar-expand-lg .navbar-collapse {
+  margin-right: 153px;
+}
+span i {
+  font-size: 30px;
+}
+.navbar-nav a {
+  font-size: 22px;
+  margin-left: 140px;
+}
+/* This is a end nav */
+/* This is a start muttiimg */
+
+.multiimg {
+  width: 74%;
+  margin: 15px auto;
+}
+.buttonmultiimg {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.button-chang {
+  background-color: unset;
+  color: black;
+  font-size: 30px;
 }
 
+/* This is a end muttiimg */
+
+/* This is a start description */
+.description {
+  background-color: rgb(8, 20, 45);
+}
+.description div {
+  width: 1040px;
+  margin: auto;
+  font-size: 29px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* This is a end description */
 @media (max-width: 700px) {
   header div .title1 {
     font-size: 70px;
@@ -34,5 +76,16 @@ header div .title2 {
   header div .title2 {
     font-size: 18px;
     margin: -35px 0 0 100px;
+  }
+  .multiimg {
+    width: 90%;
+    margin: 15px auto;
+  }
+  .description div {
+    width: 90%;
+  }
+  .navbar-nav a {
+    font-size: 22px;
+    margin-left: 0px;
   }
 }
