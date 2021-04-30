@@ -2,19 +2,28 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   direction: rtl;
   background-color: rgb(221, 220, 220);
-  height: 1500px;
 }
 /* This is a start header */
 header {
   background-color: rgb(53, 62, 83);
   padding-bottom: 40px;
 }
-
+.SocialMedia .fa {
+  font-size: 40px;
+  margin: 40px 0 0 40px;
+  color: white;
+  transition: 0.5s linear;
+}
+.SocialMedia a:hover {
+  text-decoration: unset;
+}
 header div .title1 {
   font-size: 100px;
   font-weight: 600;
+  margin-top: -60px;
   text-shadow: 7px 7px 4px rgb(112, 112, 112);
 }
 header div .title2 {
@@ -30,19 +39,39 @@ nav {
 .navbar-expand-lg .navbar-collapse {
   margin-right: 153px;
 }
-span i {
-  font-size: 30px;
-}
+
 .navbar-nav a {
   font-size: 22px;
-  margin-left: 140px;
+  margin-left: 120px;
+  transition: 0.2s linear;
 }
+.navbar-nav a:hover {
+  margin-top: -4px !important;
+}
+
 /* This is a end nav */
 /* This is a start muttiimg */
 
 .multiimg {
-  width: 74%;
-  margin: 15px auto;
+  display: block;
+  animation: multiimg1 2s forwards linear;
+}
+@keyframes multiimg1 {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 .buttonmultiimg {
   height: 15px;
@@ -52,6 +81,7 @@ span i {
 .button-chang {
   background-color: unset;
   color: black;
+
   font-size: 30px;
 }
 
@@ -68,8 +98,195 @@ span i {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 /* This is a end description */
+
+/* This is a start Products */
+.card-group {
+  width: 80%;
+  padding-left: 5%;
+  margin: 50px auto;
+  direction: rtl;
+}
+.card {
+  box-shadow: 0 0 10px 3px rgb(0, 51, 119);
+  height: 520px;
+  margin-right: 7%;
+}
+
+.cardtop {
+  margin-top: 200px;
+}
+.cardbottom {
+  margin-top: -200px;
+}
+
+.header-products {
+  position: relative;
+  color: black;
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header-products:hover {
+  color: white;
+}
+.header-products:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(0, 51, 119);
+  display: block;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: left;
+  color: white;
+}
+.header-products:hover::before {
+  transform: scaleX(1);
+  transform-origin: right;
+  color: white;
+}
+
+.hr1 {
+  background-color: black;
+  width: 40%;
+  height: 2px;
+  margin-top: -10px;
+}
+
+/* This is a start Products */
+
+/*this is a start awareness */
+.awareness {
+  background-color: rgb(200, 197, 202);
+  display: flex;
+  margin-bottom: 30px;
+  direction: ltr;
+}
+
+.awareness .awareness-description {
+  text-align: right;
+  padding: 35px;
+}
+.awareness .awareness-description p {
+  font-size: 21px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/*this is a end awareness */
+/*this is a start service */
+.accordion button {
+  width: 300px;
+  background-color: rgb(53, 62, 83);
+  height: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  border: 1px solid rgb(98, 98, 104);
+  box-shadow: 0 0 5px 2px rgb(0, 51, 119);
+  margin: 5px 0 5px 0;
+  transition: 0.5s linear;
+}
+.accordion button:hover {
+  transform: scale(1.1, 1.1);
+}
+.hr2 {
+  background-color: black;
+  margin-top: 30px;
+  height: 2px;
+  margin-bottom: 30px;
+  width: 95%;
+}
+.accordion-body {
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/*this is a end service */
+/*this is a start footer */
+footer {
+  background-color: rgb(200, 197, 202);
+  display: flex;
+  padding: 10px 0 10px 0;
+}
+footer .right {
+  width: 40%;
+  text-align: right;
+  margin-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+footer .right .conte {
+  margin: 20px 100px 0 0;
+}
+footer .right .conte .call p {
+  font-size: 40px;
+}
+footer .right .conte .call h2 {
+  margin-top: -6px;
+  font-size: 37px;
+}
+footer .right .conte .call h2 a {
+  color: black;
+}
+footer .right .conte .call h2 a:hover {
+  color: rgb(0, 51, 119);
+}
+footer .right .conte .addres {
+  margin-top: 10px;
+}
+footer .right .addres p {
+  font-size: 40px;
+}
+footer .right .addres h2 {
+  margin-top: -10px;
+  font-size: 35px;
+}
+footer .right .addres h1 {
+  margin-top: -10px;
+}
+
+footer .right .SocialMedia i {
+  font-size: 40px;
+  margin-left: 25px;
+  color: black;
+  margin-top: 22px;
+  transition: 0.5s linear;
+}
+footer .left {
+  width: 60%;
+}
+footer .left .mapouter {
+  margin: 30px auto;
+
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 700px;
+}
+footer .left .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 700px;
+  box-shadow: 0 0 10px 3px rgb(0, 51, 119);
+  border: 4px solid rgba(139, 25, 25, 0.877);
+}
+.SocialMedia i:hover {
+  transform: scale(1.2, 1.2);
+}
+.Copyright {
+  color: white;
+  background-color: rgb(53, 62, 83);
+}
+/*this is a end footer */
 @media (max-width: 700px) {
   header div .title1 {
+    margin-top: -20px;
     font-size: 70px;
     text-shadow: 5px 5px 4px rgb(112, 112, 112);
   }
@@ -78,14 +295,53 @@ span i {
     margin: -35px 0 0 100px;
   }
   .multiimg {
-    width: 90%;
-    margin: 15px auto;
+    width: 100%;
   }
   .description div {
     width: 90%;
   }
-  .navbar-nav a {
-    font-size: 22px;
-    margin-left: 0px;
+  .navbar-expand-lg .navbar-collapse {
+    margin-right: 0;
+  }
+  .card {
+    margin-top: 10px;
+  }
+  .awareness {
+    display: block;
+    direction: rtl;
+  }
+  .awareness .img img {
+    width: 100%;
+    display: block;
+  }
+  footer {
+    display: block;
+  }
+  footer .right {
+    display: inline;
+  }
+  footer .left {
+    display: inline;
+    height: 300px;
+    width: 300px;
+  }
+  footer .left iframe {
+    height: 300px;
+
+    width: 300px;
+  }
+  footer .left .mapouter {
+    height: 300px;
+    width: 300px;
+  }
+  footer .left .gmap_canvas {
+    height: 300px;
+    width: 300px;
+  }
+  .hr1 {
+    background-color: black;
+    width: 80%;
+    height: 2px;
+    margin-top: -10px;
   }
 }

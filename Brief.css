@@ -1,0 +1,40 @@
+.history {
+  margin: 10px auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+hr {
+  height: 3px;
+  background-color: black;
+  width: 30%;
+}
+.history h1 {
+  padding-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.history p {
+  width: 80%;
+  margin: auto;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.history img {
+  display: block;
+  margin: 10px auto;
+  height: 400px;
+  box-shadow: 0 0 5px 7px rgb(78, 73, 73);
+}
+@media (max-width: 700px) {
+  .history img {
+    display: block;
+    margin: 10px auto;
+    height: 300px;
+    width: 300px;
+  }
+  hr {
+    width: 80%;
+  }
+}
