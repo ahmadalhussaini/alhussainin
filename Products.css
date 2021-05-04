@@ -12,7 +12,7 @@
   background-color: white;
   margin-top: 20px;
   box-shadow: 0 0 5px 4px rgb(53, 62, 83);
-  width: 302px;
+  width: 270px;
 
   transition: 0.2s linear;
 }
@@ -20,11 +20,11 @@
   margin-top: 15px;
 }
 .products div img {
-  width: 302px;
+  width: 270px;
   height: 290px;
 }
 .products div p {
-  font-size: 23px;
+  font-size: 21px;
 }
 @media (max-width: 700px) {
   .products div {

@@ -287,18 +287,25 @@ footer .left .gmap_canvas {
 @media (max-width: 700px) {
   header div .title1 {
     margin-top: -20px;
-    font-size: 70px;
+    margin-left: 40px;
+    font-size: 50px;
     text-shadow: 5px 5px 4px rgb(112, 112, 112);
   }
   header div .title2 {
+    font-size: 15px;
+    margin: -24px 0 0 110px;
+  }
+  .navbar-nav a {
     font-size: 18px;
-    margin: -35px 0 0 100px;
+    margin-left: 120px;
+    transition: 0.2s linear;
   }
   .multiimg {
     width: 100%;
   }
   .description div {
     width: 90%;
+    font-size: 24px;
   }
   .navbar-expand-lg .navbar-collapse {
     margin-right: 0;
@@ -324,6 +331,12 @@ footer .left .gmap_canvas {
     display: inline;
     height: 300px;
     width: 300px;
+  }
+  .ccc {
+    font-size: 20px;
+  }
+  footer .right h2 a {
+    font-size: 25px;
   }
   footer .left iframe {
     height: 300px;
