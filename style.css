@@ -332,9 +332,7 @@ footer .left .gmap_canvas {
     height: 300px;
     width: 300px;
   }
-  .ccc {
-    font-size: 20px;
-  }
+
   footer .right h2 a {
     font-size: 25px;
   }
@@ -356,5 +354,8 @@ footer .left .gmap_canvas {
     width: 80%;
     height: 2px;
     margin-top: -10px;
+  }
+  .header-products {
+    font-size: 30px;
   }
 }
