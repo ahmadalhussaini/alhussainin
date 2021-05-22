@@ -290,14 +290,14 @@ footer .left .gmap_canvas {
 /*this is a end footer */
 @media (max-width: 700px) {
   header div .title1 {
-    margin-top: -20px;
+    margin-top: -30px;
     margin-left: 40px;
     font-size: 50px;
     text-shadow: 5px 5px 4px rgb(112, 112, 112);
   }
   header div .title2 {
     font-size: 15px;
-    margin: -24px 0 0 110px;
+    margin: -24px 0 -20px 110px;
   }
   .navbar-nav a {
     font-size: 18px;

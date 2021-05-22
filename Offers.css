@@ -1,0 +1,40 @@
+.offer {
+  height: 1000px;
+}
+.offer .product {
+  width: 85%;
+
+  margin: 10px auto;
+
+  border: 1px solid rgb(252, 251, 251);
+  box-shadow: 0 0 3px 3px rgb(53, 62, 83);
+
+  display: flex;
+}
+
+.offer .product .img {
+  float: right;
+  height: 100%;
+}
+.offer .product .discription {
+  text-align: right;
+  margin-right: 20px;
+}
+.offer .product .discription p {
+  font-size: 22px;
+  width: 83%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.offer .product .discription h4 {
+  display: inline;
+  margin-left: 20px;
+}
+.offer .product .discription h4:first-of-type {
+  text-decoration: line-through;
+}
+@media (max-width: 700px) {
+  .offer .product .discription p {
+    font-size: 17px;
+  }
+}
