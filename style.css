@@ -107,7 +107,8 @@ nav {
   direction: rtl;
 }
 .card {
-  box-shadow: 0 0 10px 3px rgb(0, 51, 119);
+  box-shadow: 0 0 7px 3px rgb(0, 51, 119);
+
   height: 520px;
   margin-right: 7%;
 }
@@ -138,12 +139,12 @@ nav {
 .header-products:before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 0;
   background: rgb(0, 51, 119);
   display: block;
   width: 100%;
-  height: 90%;
+  height: 73%;
   z-index: -1;
   transition: transform 0.5s;
   transform: scaleX(0);
