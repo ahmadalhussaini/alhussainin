@@ -1,9 +1,9 @@
 .call-form .form {
   width: 55%;
   margin: 50px auto;
-  background-color: white;
   padding-bottom: 5px;
-  border: 1px solid rgb(251, 251, 253);
+
+  box-shadow: 0 0 7px 5px rgb(0, 51, 119);
 }
 .call-form .form p {
   text-align: center;
